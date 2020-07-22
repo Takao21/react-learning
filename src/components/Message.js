@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Message extends Component {
   constructor() {
     super();
     this.state = {
-      'message': "Welcome visitor"
-    }
+      message: "Welcome visitor",
+    };
   }
 
   changeMessage() {
     this.setState({
-      "message": "Thank you for subscribing."
-    })
+      message: "Thank you for subscribing.",
+    });
   }
 
   render() {
@@ -20,7 +20,7 @@ class Message extends Component {
         <h1>{this.state.message}</h1>
         <button onClick={() => this.changeMessage()}>Subscribe</button>
       </div>
-    )
+    );
   }
 }
 
