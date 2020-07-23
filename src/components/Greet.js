@@ -1,10 +1,12 @@
 import React from "react";
 
-export const Greet = (props) => {
+export const Greet = ({ name, heroName }) => {
   return (
     <div>
-      <h1> Hello {props.name} </h1>
-      {props.children}{" "}
+      <h1>
+        {" "}
+        Hello {name} a.k.a {heroName}{" "}
+      </h1>
     </div>
   );
 };
