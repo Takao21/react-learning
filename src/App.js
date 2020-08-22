@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import ParentComponent from "./components/ParentComponent";
+import RefDemo from "./components/RefDemo";
+// import ParentComponent from "./components/ParentComponent";
 // import { Greet } from "./components/Greet.js";
 // import Welcome from "./components/Welcome";
 // import Message from "./components/Message";
@@ -18,7 +19,8 @@ function App() {
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <RefDemo />
     </div>
   );
 }
