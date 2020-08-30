@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import RefDemo from "./components/RefDemo";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
+// import RefDemo from "./components/RefDemo";
 // import ParentComponent from "./components/ParentComponent";
 // import { Greet } from "./components/Greet.js";
 // import Welcome from "./components/Welcome";
@@ -20,7 +22,9 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      <RefDemo />
+      {/* <RefDemo /> */}
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
